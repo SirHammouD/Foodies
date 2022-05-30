@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_dialog_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:fitsSystemWindows="true"
+    android:layout_marginBottom="40dp">
+
+
+            <LinearLayout
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+                <include layout="@layout/toolbar_comments" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:background="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/main_dialog_frame"
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/transparent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/custom_button_trans"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/comment_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_button_trans"
+                        android:inputType="textMultiLine"
+                        android:maxLines="4" />
+
+                    <ImageButton
+                        android:id="@+id/comment_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/clear_button"
+                        android:foregroundGravity="center"
+                        android:padding="10dp"
+                        android:paddingStart="15dp"
+                        app:srcCompat="@drawable/ic_send_black_24dp" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

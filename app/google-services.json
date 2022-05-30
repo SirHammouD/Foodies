@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "765230484281",
+    "firebase_url": "https://food-review-leb.firebaseio.com",
+    "project_id": "food-review-leb",
+    "storage_bucket": "food-review-leb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765230484281:android:69e56c5b879c6b9ece36e8",
+        "android_client_info": {
+          "package_name": "com.project.alihammoud.foodreviewlb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765230484281-kas2u9gc95hh6ka8nk08nu9uf0o2rs6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXrj40wbGywjZ4cznlvD6X2w5WjJbkTHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765230484281-kas2u9gc95hh6ka8nk08nu9uf0o2rs6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
